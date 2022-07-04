@@ -9,11 +9,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 32px;
+}
+
 .color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -65,4 +69,37 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+/* Third section */
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 20px 60px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+.border-color-left {
+    border-left: 7px solid tomato;
+
+}
+
+.border-color-right {
+    border-left: 7px solid blue;
+
+}
+
+/* footer-section */
+footer p {
+    text-align: center;
 }
